@@ -1,0 +1,27 @@
+
+Version 14.0.0.1 : (05-02-2021)	
+		- Solve invoice create issue of partially paid order.
+
+Version 14.0.0.2 : (10-03-2021)	
+		-  allow to enter amount 0.00 and pay whole order later on.
+
+=> 14.0.0.3 : Improved an index as per latest changes.
+
+Version 14.0.0.4 : (08/06/21)
+		- Update _accumulate_amounts() method as per base.
+
+Version 14.0.0.5 : (16/06/21)
+		- Solved issue of session close with draft order . override action_pos_session_closing_control() method also.
+		- Solved multiple picking issue.
+
+Version 14.0.0.6 : (21/10/21)
+		- Solved issue of multiple picking generated when paying order from backend.
+
+Version 14.0.0.7 : (02/11/21)
+		- Solved date issue for return amount .
+
+Version 14.0.0.8 : (22/07/22)
+		- Return product in real time it does not generate picking solved this issue.
+
+Version 14.0.0.9 : (25/07/22)
+		- Solved issue when draft order is created then go to payment it creates another picking solved issue.
